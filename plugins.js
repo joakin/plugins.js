@@ -86,7 +86,7 @@ window.log = function () {
  * https://github.com/joakin/jquery-cache
  */
 window.$c = (function () {
-    var cache: {}, data: {};
+    var cache= {}, data= {};
 
     function get(term) {
         if (this.cache[term] === undefined) {
